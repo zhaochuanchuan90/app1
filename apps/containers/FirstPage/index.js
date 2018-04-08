@@ -15,7 +15,7 @@ export default class FirstPage extends Component{
       <View style={[styles.wrapper, styles.center]}>
         <TouchableWithoutFeedback onPress={() => this.navToSecondPage()}>
           <View style={[styles.txtWrapper, styles.center]}>
-            <Text style={styles.txt}>去第二个页面</Text>
+            <Text style={styles.txt}>去第二个页面(第一次修改)</Text>
           </View>
         </TouchableWithoutFeedback>
         <TouchableWithoutFeedback onPress={() => this.clickButton()}>
