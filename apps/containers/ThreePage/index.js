@@ -22,6 +22,7 @@ export default class ThreePage extends Component{
     )
   }
 
+  // TODO:: 没办法直接隔页返回
   goBackFirstPage = () => {
     console.log('33333', this.props.navigation.state.key);
     this.props.navigation.goBack('id-1522842738132-0');
